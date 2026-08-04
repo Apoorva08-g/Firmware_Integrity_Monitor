@@ -29,6 +29,8 @@ it against a cryptographically stored baseline. If even a single byte has change
 ---
 
 ## Architecture
+
+```
 ESP32 (Target Device)
 │
 │ UART (9600 baud)
@@ -44,7 +46,7 @@ Raspberry Pi Pico W (Trusted Verifier)
 │
 ▼
 WiFi Web Dashboard
-
+```
 ---
 
 ## Hardware Required
@@ -140,7 +142,7 @@ Open the IP address shown in any browser
 - Add write-once forensic logging for chain of custody
 
 ---
-
+```
 ## Files
 firmware-integrity-monitor/
 ├── README.md
@@ -158,5 +160,5 @@ firmware-integrity-monitor/
 ├── alert.png
 ├── dashboard_pass.png
 └── dashboard_alert.png
-
+```
 ---
