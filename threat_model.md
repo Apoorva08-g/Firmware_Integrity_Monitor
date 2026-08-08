@@ -34,10 +34,10 @@ Reference: SolarWinds (2020) where the attackers modified software during the bu
 - Write-once forensic logging for chain of custody
 
 ## MITRE ATT&CK Mapping
-- T1195.002 — Compromise Software Supply Chain
-- T1542 — Pre-OS Boot
-- T1553 — Subvert Trust Controls
+- T1195.002 Compromise Software Supply Chain
+- T1542 Pre-OS Boot
+- T1553 Subvert Trust Controls
 
 ## Real World Reference
-SolarWinds 2020 — Attackers compromised the build pipeline and inserted SUNBURST malware into a legitimate software update. 18,000 organisations 
+SolarWinds 2020: Attackers compromised the build pipeline and inserted SUNBURST malware into a legitimate software update. 18,000 organisations 
 installed the update. Detection took months. This project addresses the same threat at the firmware layer.
